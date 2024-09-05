@@ -8,8 +8,14 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		//Definicion de las variables
-		int numero;
-
+		
+		//Ingreso de datos por consola
+		Scanner scanner = new Scanner(System.in);
+			int numero = 1;
+			System.out.println("Ingrese un numero entero");
+			if (scanner.hasNextInt()) {
+				int num = scanner.nextInt();
+			}
 	}
 
 }
